@@ -1,7 +1,7 @@
 
 
-const SettingsIcon = () => {
-  return <svg className="icon">
+const SettingsIcon = ({className}) => {
+  return <svg className={`icon ${className}`}>
   <use href="./img/sprite.svg#settings"></use>
 </svg>
 }
