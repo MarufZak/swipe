@@ -9,6 +9,7 @@ import Team from './components/Team';
 import Questions from "./components/Questions";
 import About from "./components/About";
 import Press from './components/Press';
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Questions />
       <About />
       <Press />
+      <Contact />
     </>
   );
 }
