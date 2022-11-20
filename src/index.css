@@ -56,10 +56,6 @@ button {
   cursor: pointer;
   fill: var(--color-primary);
 }
-.icon.icon--sm {
-  width: 1.5rem;
-  height: 1.2rem;
-}
 
 .logo>img {
   object-position: 0 .5rem;
@@ -875,5 +871,77 @@ h5 {
   }
   .teams__header-buttons {
     justify-self: center;
+  }
+}
+
+
+
+
+
+
+
+/*=== QUESTIONS ===*/
+
+.questions {
+  padding: 9rem 0;
+  position: relative;
+}
+
+.questions__header {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.questions__img {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 30vw;
+  z-index: -1;
+}
+
+.questions__list {
+  margin-top: clamp(3rem,10vw,20rem);
+  width: 70%;
+}
+
+.questions__item {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 3.5rem;
+}
+
+.questions__item-icon {
+  width: 6rem;
+  height: 6rem;
+}
+
+.questions__item-text {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(2rem,2.8vw,6rem);
+}
+
+.questions__list .questions__item:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+
+@media screen and (max-width: 767px) {
+  .questions__header {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .questions__list {
+    width: 100%;
+  }
+
+  .questions__img {
+    opacity: 0.5;
+  }
+
+  .questions__item-icon {
+    width: 4rem;
+    height: 4rem;
   }
 }

@@ -6,6 +6,7 @@ import Plans from "./components/Plans";
 import Sponsors from "./components/Sponsors";
 import Techs from "./components/Techs";
 import Team from './components/Team';
+import Questions from "./components/Questions";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Techs />
       <Plans />
       <Team />
+      <Questions />
     </>
   );
 }
