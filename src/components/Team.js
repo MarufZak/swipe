@@ -1,42 +1,43 @@
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import { Grid } from "@splidejs/splide-extension-grid";
-import "@splidejs/react-splide/css";
 import Container from "./Container";
 import ArrowRightIcon from "./Vectors/ArrowRightIcon";
 
 const Team = () => {
   return (
     <div className="teams">
-      <Splide
-        hasTrack={false}
-        className="teams__slider"
-        tag="section"
-        extensions={{ Grid }}
-        options={{
-          rewind: true,
-          grid: { rows: 2, cols: 4, gap: { col: "6rem", row: "2rem" } },
-          breakpoints: {
-            1324: {
-                grid: { rows: 2, cols: 3}
+      <Container>
+        <header className="teams__header">
+          <h2 className="title title--primary teams__title">
+            Meet the team Want to join?
+          </h2>
+          <div className="teams__header-buttons">
+            <button className="btn btn--purple">Join us</button>
+            <button className="btn btn--grey">See all openings</button>
+          </div>
+        </header>
+        <Splide
+          hasTrack={false}
+          className="teams__slider"
+          tag="section"
+          extensions={{ Grid }}
+          options={{
+            rewind: true,
+            grid: { rows: 2, cols: 4},
+            breakpoints: {
+              1324: {
+                grid: { rows: 2, cols: 3 },
+              },
+              992: {
+                grid: { rows: 2, cols: 2 },
+              },
+              576: {
+                grid: { rows: 1, cols: 1 },
+              },
             },
-            992: {
-                grid: { rows: 2, cols: 2}
-            },
-            576: {
-                grid: { rows: 1, cols: 1}
-            }
-          },
-          pagination: false
-        }}
-      >
-        <Container>
-            <header className="teams__header">
-                <h2 className="title title--primary teams__title">Meet the team Want to join?</h2>
-                <div className="teams__header-buttons">
-                    <button className="btn btn--purple">Join us</button>
-                    <button className="btn btn--grey">See all openings</button>
-                </div>
-            </header>
+            pagination: false,
+          }}
+        >
           <SplideTrack className="teams__slider-track">
             <SplideSlide className="teams__item">
               <picture>
@@ -239,16 +240,16 @@ const Team = () => {
               <span className="teams__item-job">UI/UX Designer</span>
             </SplideSlide>
           </SplideTrack>
-        </Container>
-        <div className="splide__arrows teams__slider-arrows">
-          <button className="splide__arrow splide__arrow--prev teams__slider-prev">
-            <ArrowRightIcon />
-          </button>
-          <button className="splide__arrow splide__arrow--next teams__slider-next">
-            <ArrowRightIcon />
-          </button>
-        </div>
-      </Splide>
+          <div className="splide__arrows teams__slider-arrows">
+            <button className="splide__arrow splide__arrow--prev teams__slider--prev">
+              <ArrowRightIcon />
+            </button>
+            <button className="splide__arrow splide__arrow--next teams__slider--next">
+              <ArrowRightIcon />
+            </button>
+          </div>
+        </Splide>
+      </Container>
     </div>
   );
 };
