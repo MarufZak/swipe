@@ -2,7 +2,7 @@
 
 const Numbers = () => {
   return <div className="numbers">
-    <img className="numbers__bg" src="./img/numbers_bg.png" alt="triangles" />
+    <img className="numbers__bg" src="./img/numbers/numbers_bg.png" alt="triangles" />
     <div className="container">
         <div className="numbers__body">
             <div>

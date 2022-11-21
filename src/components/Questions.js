@@ -4,7 +4,7 @@ import DownloadIcon from './Vectors/DownloadIcon';
 
 const Questions = () => {
   return <div className="questions">
-        <img className='questions__img' src="./img/questions.jpg" srcSet='./img/questions.webp' alt="balls" />
+        <img className='questions__img' src="./img/questions/questions.jpg" srcSet='./img/questions/questions.webp' alt="balls" />
     <Container>
         <div className='questions__body'>
             <header className='questions__header'>

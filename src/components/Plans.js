@@ -7,8 +7,8 @@ const Plans = () => {
       <h2 className='title title--primary plans__title'>Price plans</h2>
       <div className = "plans__body">
         <div className = "plans__carts" >
-          <img className = 'plans__img plans__img--second' src = "./img/plans-1.png" srcSet = './img/plans-1.webp' alt = "circle" />
-          <img className = 'plans__img plans__img--first' src = "./img/plans-2.png" srcSet = './img/plans-2.webp ' alt = "circle" />
+          <img className = 'plans__img plans__img--second' src = "./img/plans/plans-1.png" srcSet = './img/plans/plans-1.webp' alt = "circle" />
+          <img className = 'plans__img plans__img--first' src = "./img/plans/plans-2.png" srcSet = './img/plans/plans-2.webp ' alt = "circle" />
           <div className = "plans__cart" >
             <h3 className = 'plans__cart-title'>Basic</h3> 
             <ul className = "plans__cart-list" >

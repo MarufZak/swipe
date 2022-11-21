@@ -18,9 +18,9 @@ const Features = () => {
                     <button className='btn btn--purple features__btn'>Buy now</button>
                 </header>
                 <div className='features__carts'>
-                    <img className='features__img features__img--first' src="./img/features-1.png" alt="figure" />
-                    <img className='features__img features__img--second' src="./img/features-2.png" alt="figure" />
-                    <img className='features__img features__img--third' src="./img/features-3.png" alt="figure" />
+                    <img className='features__img features__img--first' src="./img/features/features-1.png" alt="figure" />
+                    <img className='features__img features__img--second' src="./img/features/features-2.png" alt="figure" />
+                    <img className='features__img features__img--third' src="./img/features/features-3.png" alt="figure" />
                     <div className="features__cart">
                         <h5 className="title title--secondary features__cart-title">Simple</h5>
                         <p className="features__cart-text ">

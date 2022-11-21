@@ -17,7 +17,7 @@ const About = () => {
                     <SplideTrack>
                         <SplideSlide className='about__slide'>
                             <div className='about__slide-profile'>
-                                <img className='about__slide-img' src="./img/about.png" alt="user" />
+                                <img className='about__slide-img' src="./img/about/about.png" alt="user" />
                                 <div className='about__slide-media'>
                                     <LinkedinIcon className="about__slide-icon" />
                                     <FacebookIcon className="about__slide-icon" />
@@ -35,7 +35,7 @@ const About = () => {
                         </SplideSlide>
                         <SplideSlide className='about__slide'>
                             <div className='about__slide-profile'>
-                                <img className='about__slide-img' src="./img/about.png" alt="user" />
+                                <img className='about__slide-img' src="./img/about/about.png" alt="user" />
                                 <div className='about__slide-media'>
                                     <LinkedinIcon className="about__slide-icon" />
                                     <FacebookIcon className="about__slide-icon" />

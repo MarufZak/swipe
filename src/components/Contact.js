@@ -26,8 +26,8 @@ const Contact = () => {
 
 
   return <div className="contact">
-    <img className="contact__img contact__img--first" src="./img/plans-2.png" srcSet="./img/plans-2.webp" alt="circle" />
-    <img className="contact__img contact__img--second" src="./img/plans-1.png" srcSet="./img/plans-1.webp" alt="circle" />
+    <img className="contact__img contact__img--first" src="./img/plans/plans-2.png" srcSet="./img/plans/plans-2.webp" alt="circle" />
+    <img className="contact__img contact__img--second" src="./img/plans/plans-1.png" srcSet="./img/plans/plans-1.webp" alt="circle" />
     <Container>
         <div className="contact__body">
             <header className="contact__header">
