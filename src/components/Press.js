@@ -19,9 +19,10 @@ const Press = () => {
               breakpoints: {
                 768: {
                   perPage: 1,
-                  padding: { right: "10rem" },
+                  padding: 0,
                 },
               },
+              autoplay: true
             }}
             className="press__slider"
           >

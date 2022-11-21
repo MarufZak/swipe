@@ -1,6 +1,4 @@
-import TwitterIcon from "./Vectors/TwitterIcon";
-import InstagramIcon from "./Vectors/InstagramIcon";
-import FacebookIcon from "./Vectors/FacebookIcon";
+import {TwitterIcon,InstagramIcon,FacebookIcon} from "./Vectors";
 import Container from './Container';
 
 const HeaderContent = () => {

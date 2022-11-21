@@ -1,9 +1,6 @@
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
+import {LinkedinIcon, FacebookIcon,TwitterIcon,ArrowRightIcon} from "./Vectors";
 import Container from './Container';
-import LinkedinIcon from './Vectors/LinkedinIcon';
-import FacebookIcon from './Vectors/FacebookIcon';
-import TwitterIcon from './Vectors/TwitterIcon';
-import ArrowRightIcon from './Vectors/ArrowRightIcon';
 
 const About = () => {
   return <div className="about section">
@@ -12,7 +9,7 @@ const About = () => {
             <header className='about__header section__header'>
                 <h2 className='title title--primary about__title section__title'>People talk about us</h2>
             </header>
-            <Splide hasTrack={false} options={{rewind: true}}>
+            <Splide hasTrack={false} options={{rewind: true,pagination: false}}>
                 <div className='about__slider'>
                     <SplideTrack>
                         <SplideSlide className='about__slide'>

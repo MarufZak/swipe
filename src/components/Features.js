@@ -1,12 +1,4 @@
-
-import SettingsIcon from './Vectors/SettingsIcon';
-import BoardIcon from './Vectors/BoardIcon';
-import UserIcon from './Vectors/UserIcon';
-import LightIcon from './Vectors/LightIcon';
-import StarIcon from './Vectors/StarIcon';
-import CarIcon from './Vectors/CarIcon';
-import ResetIcon from './Vectors/ResetIcon';
-import TimerIcon from './Vectors/TimerIcon';
+import {SettingsIcon,BoardIcon,UserIcon,LightIcon,StarIcon,CarIcon,ResetIcon,TimerIcon} from "./Vectors";
 import Container from './Container';
 
 const Features = () => {

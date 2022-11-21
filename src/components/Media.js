@@ -1,6 +1,6 @@
 import Container from "./Container";
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
-import ArrowRightIcon from './Vectors/ArrowRightIcon';
+import {ArrowRightIcon} from './Vectors';
 
 
 

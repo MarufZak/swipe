@@ -39,11 +39,11 @@ const Contact = () => {
                     <span className="contact__additional-subtext">Support service will contact you within 48 hours.</span>
                 </div>
                 <form onSubmit={handleSubmit} className="contact__form">
-                    <label className="contact__form-label" for="name">How can we call you?</label>
+                    <label className="contact__form-label" htmlFor="name">How can we call you?</label>
                     <input value={name} onChange={(e)=>setName(e.target.value)} required className="contact__form-input" id="name" type="text" placeholder="Enter your name" />
-                    <label className="contact__form-label" for="email">How can we contact you?</label>
+                    <label className="contact__form-label" htmlFor="email">How can we contact you?</label>
                     <input value={email} onChange={(e)=>setEmail(e.target.value)} required className="contact__form-input" id="email" type="email" placeholder="Enter your email" />
-                    <label className="contact__form-label" for="message">How can we help you?</label>
+                    <label className="contact__form-label" htmlFor="message">How can we help you?</label>
                     <input value={message} onChange={(e)=>setMessage(e.target.value)} required className="contact__form-input" id="message" type="text" placeholder="Enter your message" />
                     <button className="btn btn--purple contact__form-btn" type="submit">Submit</button>
                 </form>

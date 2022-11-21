@@ -1,6 +1,5 @@
-
 import Container from './Container';
-import DownloadIcon from './Vectors/DownloadIcon';
+import {DownloadIcon} from './Vectors';
 
 const Questions = () => {
   return <div className="questions section">
