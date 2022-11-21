@@ -13,26 +13,21 @@ const Plans = () => {
             <h3 className = 'plans__cart-title'>Basic</h3> 
             <ul className = "plans__cart-list" >
                 <li className = "plans__cart-item">
-                  <DoneIcon className = {`icon--sm`}
-                /> 
+                  <DoneIcon/> 
                 <span className = 'plans__cart-desc' >Free 30 - days trial period </span> </li> 
                 <li className = "plans__cart-item" >
-                  <DoneIcon className = {`icon--sm`}
-                /> 
+                  <DoneIcon/> 
                 <span className = 'plans__cart-desc' >Professional design and guidelines for customization</span> 
                 </li><li className = "plans__cart-item" >
-                  <DoneIcon className = {`icon--sm`}
-                /> 
+                  <DoneIcon/> 
                 <span className = 'plans__cart-desc' >Unlimited amount of pages to change </span> 
                 </li> 
                 <li className = "plans__cart-item unavailable" >
-                  <CloseIcon className = {`icon--sm`}
-                /> 
+                  <CloseIcon/> 
                 <span className = 'plans__cart-desc' >Unlimited amount of pages to change </span> 
                 </li> 
                 <li className = "plans__cart-item unavailable" >
-                  <CloseIcon className = {`icon--sm`}
-                /> 
+                  <CloseIcon/> 
                 <span className = 'plans__cart-desc' >Advenced security components </span> 
                 </li> 
             </ul>
@@ -45,23 +40,20 @@ const Plans = () => {
       <h3 className = 'plans__cart-title' >Pro</h3>
       <ul className = "plans__cart-list" >
         <li className = "plans__cart-item" >
-          <DoneIcon className = {`icon--sm`}/>
-          <span className='plans__cart-desc' >Free 30 - days trial period </span></li>
+          <DoneIcon/><span className='plans__cart-desc' >Free 30 - days trial period </span></li>
           <li className = "plans__cart-item">
-            < DoneIcon className={`icon--sm`}/>
+            < DoneIcon />
             <span className = 'plans__cart-desc' >  Professional design and guidelinesfor customization  </span>
              </li> 
              <li className = "plans__cart-item">
-              <DoneIcon className={`icon--sm`}/>
+              <DoneIcon />
               <span className='plans__cart-desc'>Unlimited amount of pages to change</span> 
               </li> 
               <li className="plans__cart-item" >
-                <DoneIcon className = {`icon--sm`}/>
-                <span className = 'plans__cart-desc'>Unlimited amount of pages to change </span>
+                <DoneIcon/><span className = 'plans__cart-desc'>Unlimited amount of pages to change </span>
                 </li>
                 <li className="plan__cart-item" >
-                  <DoneIcon className = {`icon--sm`}/> 
-                  <span className='plans__cart-desc'>Advenced security components </span>
+                  <DoneIcon/> <span className='plans__cart-desc'>Advenced security components </span>
                   </li> 
                   </ul> 
                   <div className='plans__cart-additional'>

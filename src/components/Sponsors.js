@@ -1,7 +1,7 @@
 
 
 const Sponsors = () => {
-  return <div className="sponsors">
+  return <div className="sponsors parent">
     <div className="container">
         <div className="sponsors__body">
             <img className="sponsors__img" src="./img/logo.svg" alt="swipe" />

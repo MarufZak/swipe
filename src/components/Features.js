@@ -10,7 +10,7 @@ import TimerIcon from './Vectors/TimerIcon';
 import Container from './Container';
 
 const Features = () => {
-  return <div className="features">
+  return <div className="features parent">
         <Container>
             <div className="features__body">
                 <header className='features__header'>
