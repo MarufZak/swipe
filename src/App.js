@@ -10,6 +10,7 @@ import Questions from "./components/Questions";
 import About from "./components/About";
 import Press from './components/Press';
 import Contact from "./components/Contact";
+import Media from "./components/Media";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <About />
       <Press />
       <Contact />
+      <Media />
     </>
   );
 }
