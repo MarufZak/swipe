@@ -2,7 +2,10 @@
 
 const Numbers = () => {
   return <div className="numbers">
-    <img className="numbers__bg" src="./img/numbers/numbers_bg.png" alt="triangles" />
+    <picture>
+        <source type="image/webp" sizes="(min-width: 992px) 30rem, 15rem" srcSet="./img/numbers/numbers_bg@200.webp 200w, ./img/numbers/numbers_bg@452.webp 452w, ./img/numbers/numbers_bg@524.webp 524w" />
+        <img sizes="(min-width: 992px) 30rem, 15rem" src="./img/numbers/numbers_bg@524.png" srcSet="./img/numbers/numbers_bg@200.png 200w, ./img/numbers/numbers_bg@452.png 452w, ./img/numbers/numbers_bg@524.png 524w" className="numbers__bg"  alt="triangles"/>
+    </picture>
     <div className="container">
         <div className="numbers__body">
             <div>
