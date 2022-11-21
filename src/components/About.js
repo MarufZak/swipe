@@ -6,11 +6,11 @@ import TwitterIcon from './Vectors/TwitterIcon';
 import ArrowRightIcon from './Vectors/ArrowRightIcon';
 
 const About = () => {
-  return <div className="about">
+  return <div className="about section">
     <Container>
         <div className='about__body'>
-            <header className='about__header'>
-                <h2 className='title title--primary about__title'>People talk about us</h2>
+            <header className='about__header section__header'>
+                <h2 className='title title--primary about__title section__title'>People talk about us</h2>
             </header>
             <Splide hasTrack={false} options={{rewind: true}}>
                 <div className='about__slider'>

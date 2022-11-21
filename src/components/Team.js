@@ -5,15 +5,13 @@ import ArrowRightIcon from "./Vectors/ArrowRightIcon";
 
 const Team = () => {
   return (
-    <div className="teams">
+    <div className="teams section">
       <Container>
-        <header className="teams__header">
-          <h2 className="title title--primary teams__title">
-            Meet the team Want to join?
-          </h2>
-          <div className="teams__header-buttons">
-            <button className="btn btn--purple">Join us</button>
-            <button className="btn btn--grey">See all openings</button>
+        <header className="teams__header section__header">
+          <h2 className="title title--primary teams__title section__title">Meet the team Want to join?</h2>
+          <div className="teams__header-buttons section__btn">
+            <button className="btn btn--purple teams__btn">Join us</button>
+            <button className="btn btn--grey teams__btn">See all openings</button>
           </div>
         </header>
         <Splide

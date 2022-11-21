@@ -25,13 +25,13 @@ const Contact = () => {
     };
 
 
-  return <div className="contact">
+  return <div className="contact section">
     <img className="contact__img contact__img--first" src="./img/plans/plans-2.png" srcSet="./img/plans/plans-2.webp" alt="circle" />
     <img className="contact__img contact__img--second" src="./img/plans/plans-1.png" srcSet="./img/plans/plans-1.webp" alt="circle" />
     <Container>
         <div className="contact__body">
-            <header className="contact__header">
-                <h2 className="title title--primary">Contact us</h2>
+            <header className="contact__header section__header">
+                <h2 className="title title--primary contact__title section__title">Contact us</h2>
             </header>
             <div className="contact__content">
                 <div className="contact__additional">

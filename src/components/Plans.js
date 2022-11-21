@@ -2,9 +2,11 @@ import DoneIcon from './Vectors/DoneIcon';
 import CloseIcon from './Vectors/CloseIcon';
 
 const Plans = () => {
-  return <div className = "plans" >
-    <div className = "container" >
-      <h2 className='title title--primary plans__title'>Price plans</h2>
+  return <div className = "plans section">
+    <div className = "container">
+      <header className='section__header'>
+        <h2 className='title title--primary plans__title section__title'>Price plans</h2>
+      </header>
       <div className = "plans__body">
         <div className = "plans__carts" >
           <img className = 'plans__img plans__img--second' src = "./img/plans/plans-1.png" srcSet = './img/plans/plans-1.webp' alt = "circle" />

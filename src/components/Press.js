@@ -3,12 +3,12 @@ import Container from "./Container";
 
 const Press = () => {
   return (
-    <div className="press">
+    <div className="press section">
       <Container>
         <div className="press__body">
-          <header className="press__header">
-            <h2 className="title title--primary press__title">In the press</h2>
-            <button className="btn btn--purple press__button">View more</button>
+          <header className="press__header section__header">
+            <h2 className="title title--primary press__title section__title">In the press</h2>
+            <button className="btn btn--purple press__button section__btn">View more</button>
           </header>
           <Splide
             options={{

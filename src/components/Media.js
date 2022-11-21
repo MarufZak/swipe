@@ -5,12 +5,12 @@ import ArrowRightIcon from './Vectors/ArrowRightIcon';
 
 
 const Media = () => {
-  return <div className="media">
+  return <div className="media section">
     <Container>
         <div className="media__body">
-            <header className="media__header">
-                <h2 className="title title--primary media__title">In social media</h2>
-                <button className="btn btn--grey media__btn">Go to Instagram</button>
+            <header className="media__header section__header">
+                <h2 className="title title--primary media__title section__title">In social media</h2>
+                <button className="btn btn--grey media__btn section__btn">Go to Instagram</button>
             </header>
         <Splide className="media__slider" hasTrack={false} options={{perPage: 5,breakpoints: {
             992: {

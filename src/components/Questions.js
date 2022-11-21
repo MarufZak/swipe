@@ -3,12 +3,12 @@ import Container from './Container';
 import DownloadIcon from './Vectors/DownloadIcon';
 
 const Questions = () => {
-  return <div className="questions">
+  return <div className="questions section">
         <img className='questions__img' src="./img/questions/questions.jpg" srcSet='./img/questions/questions.webp' alt="balls" />
     <Container>
         <div className='questions__body'>
-            <header className='questions__header'>
-                <h2 className='title title--primary questions__title'>Frequently asked questions</h2>
+            <header className='questions__header section__header'>
+                <h2 className='title title--primary questions__title section__title'>Frequently asked questions</h2>
             </header>
             <ul className='questions__list'>
                 <li className='questions__item'>

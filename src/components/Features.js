@@ -10,12 +10,12 @@ import TimerIcon from './Vectors/TimerIcon';
 import Container from './Container';
 
 const Features = () => {
-  return <div className="features parent">
+  return <div className="features section">
         <Container>
             <div className="features__body">
-                <header className='features__header'>
-                    <h2 className='features__title title title--primary'>Get to know our main features</h2>
-                    <button className='btn btn--purple features__btn'>Buy now</button>
+                <header className='features__header section__header'>
+                    <h2 className='features__title title title--primary section__title'>Get to know our main features</h2>
+                    <button className='btn btn--purple features__btn section__btn'>Buy now</button>
                 </header>
                 <div className='features__carts'>
                     <img className='features__img features__img--first' src="./img/features/features-1.png" alt="figure" />

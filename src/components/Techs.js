@@ -1,9 +1,11 @@
 
 const Techs = () => {
-  return <div className="techs">
+  return <div className="techs section">
     <div className="container">
         <div className="techs__body">
-            <h3 className="title title--secondary techs__title">No need to know any technologies</h3>
+            <header className="section__header">
+                <h3 className="title title--secondary techs__title section__title">No need to know any technologies</h3>
+            </header>
             <div className="techs__item">
                 <img className="techs__item-img" sizes="(max-width: 992px) 70vw, (max-width: 576px) 90vw, 35vw`" src="./img/techs/techs@692.jpg" srcSet="./img/techs/techs@310.webp 310w, ./img/techs/techs@692.webp 692w, ./img/techs/techs@1036.webp 1036w" alt="balls" />
                 <article className="techs__item-content">
