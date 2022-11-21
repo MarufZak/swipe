@@ -3,14 +3,14 @@ import { getDatabase } from "firebase/database";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAre0PEFLtFDNLYXzv_l8T-K6yN_9raPX4",
-  authDomain: "swipe-44bf3.firebaseapp.com",
-  projectId: "swipe-44bf3",
-  storageBucket: "swipe-44bf3.appspot.com",
-  messagingSenderId: "415630525977",
-  appId: "1:415630525977:web:37278ebe32f563dc5dcc88",
-  measurementId: "G-MY1ZBW8N3B",
-  databaseURL: "https://swipe-44bf3-default-rtdb.firebaseio.com"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
+  databaseURL: process.env.REACT_APP_DATABASE_URL
 };
 
 const app = initializeApp(firebaseConfig);
