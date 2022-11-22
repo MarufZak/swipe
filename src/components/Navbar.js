@@ -53,7 +53,7 @@ function Navbar() {
                 </a>
               </li>
             </ul>
-            <button className="btn btn--white">Buy now</button>
+            <button className="btn btn--white nav__btn">Buy now</button>
           </div>
         </div>
       </Container>

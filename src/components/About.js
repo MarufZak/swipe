@@ -10,6 +10,8 @@ import Container from "./Container";
 const About = () => {
   return (
     <section className="about section">
+      <img className="about__bg about__bg--first" src="./img/about/about-bg-1.png" alt="triangle" />
+      <img className="about__bg about__bg--second" src="./img/about/about-bg-2.png" alt="triangle" />
       <Container>
         <div className="about__body">
           <header className="about__header section__header">
