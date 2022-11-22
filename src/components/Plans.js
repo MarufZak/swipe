@@ -51,7 +51,7 @@ const Plans = () => {
                     Unlimited amount of pages to change
                   </span>
                 </li>
-                <li className="plans__cart-item unavailable">
+                <li className="plans__cart-item disabled">
                   <span>
                     <CloseIcon />
                   </span>
@@ -59,7 +59,7 @@ const Plans = () => {
                     Unlimited amount of pages to change
                   </span>
                 </li>
-                <li className="plans__cart-item unavailable">
+                <li className="plans__cart-item disabled">
                   <span>
                     <CloseIcon />
                   </span>

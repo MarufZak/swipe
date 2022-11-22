@@ -2,14 +2,17 @@ import Container from "./Container";
 import { useState } from "react";
 import { database } from "../firebase";
 import { ref, set } from "firebase/database";
+import LoadingGif from "./LoadingGif";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
 
     set(ref(database, "clients/" + name), {
       name,
@@ -22,6 +25,7 @@ const Contact = () => {
         setName("");
         setEmail("");
         setMessage("");
+        setLoading(false);
       });
   };
 
@@ -95,10 +99,12 @@ const Contact = () => {
                 placeholder="Enter your message"
               />
               <button
-                className="btn btn--purple contact__form-btn"
+                className={`btn btn--purple contact__form-btn ${
+                  loading && "disabled"
+                }`}
                 type="submit"
               >
-                Submit
+                {loading ? <LoadingGif /> : "Submit"}
               </button>
             </form>
           </div>
