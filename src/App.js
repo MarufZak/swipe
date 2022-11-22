@@ -13,6 +13,7 @@ import {
   Contact,
   Media,
 } from "./components";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Press />
       <Contact />
       <Media />
+      <Footer/>
     </>
   );
 }

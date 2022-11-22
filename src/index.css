@@ -59,10 +59,7 @@ button {
   height: 2rem;
   cursor: pointer;
   fill: var(--color-primary);
-}
-
-.logo>img {
-  object-position: 0 0.5rem;
+  display: inline-block;
 }
 
 .container {
@@ -111,6 +108,7 @@ button {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 1.1;
+  margin: 0;
 }
 
 .title--primary {
@@ -363,6 +361,12 @@ h5 {
   gap: 2rem;
 }
 
+@media screen and (max-width: 992px) {
+  .header {
+    overflow: hidden;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .header__bg {
     opacity: 0.7;
@@ -387,7 +391,7 @@ h5 {
 }
 
 .header__subtitle {
-  margin: clamp(2rem, 2.8rem, 6rem) 0 clamp(1rem, 3.5vw, 7rem) 0;
+  margin: clamp(2rem, 2rem, 6rem) 0 clamp(1rem, 3.5vw, 7rem) 0;
 }
 
 @media screen and (max-width: 576px) {
@@ -1076,5 +1080,80 @@ h5 {
 @media screen and (max-width: 768px) {
   .media__slider {
     padding: 0 5rem;
+  }
+}
+
+
+
+
+
+/*=== FOOTER ===*/
+
+.footer {
+  padding: 8rem 0;
+  background: var(--color-primary);
+  color: var(--color-white);
+  position: relative;
+}
+
+.footer__body {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: clamp(4rem,7vw,12rem);
+}
+
+.footer__lists {
+  width: 100%;
+  padding: 5rem 0;
+  border-top: 1px solid var(--color-sky);
+  border-bottom: 1px solid var(--color-sky);
+  display: flex;
+  gap: clamp(4rem,7vw,12rem);
+}
+
+.footer__list .footer__list-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+
+.footer a {
+  color: inherit;
+}
+
+.footer__info a {
+  color: var(--color-purple);
+}
+
+.footer__info-rights {
+  margin-top: clamp(4rem,5vw,12rem);
+  font-size: 1.4rem;
+}
+
+.footer__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .footer__bg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer__body {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .footer__lists {
+    border: 0;
+    padding: 0;
+    justify-content: center;
+    margin-bottom: 5rem;
   }
 }
