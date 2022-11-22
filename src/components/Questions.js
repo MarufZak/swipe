@@ -3,7 +3,7 @@ import { DownloadIcon } from "./Vectors";
 
 const Questions = () => {
   return (
-    <div className="questions section">
+    <section className="questions section">
       <img
         className="questions__img"
         src="./img/questions/questions.jpg"
@@ -51,7 +51,7 @@ const Questions = () => {
           </ul>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

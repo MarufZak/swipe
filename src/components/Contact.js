@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact section">
+    <section className="contact section">
       <img
         className="contact__img contact__img--first"
         src="./img/plans/plans-2.png"
@@ -47,7 +47,7 @@ const Contact = () => {
             </h2>
           </header>
           <div className="contact__content">
-            <div className="contact__additional">
+            <article className="contact__additional">
               <p className="contact__additional-text">
                 The most popular questions are listed in the FAQs section. We
                 are happy to help you with any of your questions, wishes and
@@ -56,7 +56,7 @@ const Contact = () => {
               <span className="contact__additional-subtext">
                 Support service will contact you within 48 hours.
               </span>
-            </div>
+            </article>
             <form onSubmit={handleSubmit} className="contact__form">
               <label className="contact__form-label" htmlFor="name">
                 How can we call you?
@@ -104,7 +104,7 @@ const Contact = () => {
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

@@ -1,15 +1,16 @@
+import Container from "./Container";
 import { DoneIcon, CloseIcon } from "./Vectors";
 
 const Plans = () => {
   return (
     <div className="plans section">
-      <div className="container">
-        <header className="section__header">
+      <Container>
+        <div className="plans__body">
+        <header className="plans__header section__header">
           <h2 className="title title--primary plans__title section__title">
             Price plans
           </h2>
         </header>
-        <div className="plans__body">
           <div className="plans__carts">
             <img
               className="plans__img plans__img--second"
@@ -23,7 +24,7 @@ const Plans = () => {
               srcSet="./img/plans/plans-2.webp "
               alt="circle"
             />
-            <div className="plans__cart">
+            <article className="plans__cart">
               <h3 className="plans__cart-title">Basic</h3>
               <ul className="plans__cart-list">
                 <li className="plans__cart-item">
@@ -73,8 +74,8 @@ const Plans = () => {
                 </h2>
                 <button className="btn btn--purple"> Buy now </button>
               </div>
-            </div>
-            <div className="plans__cart">
+            </article>
+            <article className="plans__cart">
               <h3 className="plans__cart-title">Pro</h3>
               <ul className="plans__cart-list">
                 <li className="plans__cart-item">
@@ -90,7 +91,6 @@ const Plans = () => {
                     <DoneIcon />
                   </span>
                   <span className="plans__cart-desc">
-                    
                     Professional design and guidelines for customization
                   </span>
                 </li>
@@ -125,10 +125,10 @@ const Plans = () => {
                 </h2>
                 <button className="btn btn--purple"> Buy now </button>
               </div>
-            </div>
+            </article>
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 };

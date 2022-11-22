@@ -1,7 +1,7 @@
 import Container from "./Container";
 const Techs = () => {
   return (
-    <div className="techs section">
+    <section className="techs section">
       <Container>
         <div className="techs__body">
           <header className="section__header">
@@ -9,7 +9,7 @@ const Techs = () => {
               No need to know any technologies
             </h3>
           </header>
-          <div className="techs__item">
+          <article className="techs__item">
             <img
               className="techs__item-img"
               sizes="(max-width: 992px) 70vw, (max-width: 576px) 90vw, 35vw`"
@@ -41,8 +41,8 @@ const Techs = () => {
                 learn more
               </a>
             </article>
-          </div>
-          <div className="techs__item">
+          </article>
+          <article className="techs__item">
             <article className="techs__item-content">
               <h4 className="title title--secondary techs__item-title">
                 Easy to change
@@ -74,10 +74,10 @@ const Techs = () => {
               srcSet="./img/change/change@330.webp 330w, ./img/change/change@471.webp 471w,"
               alt="triangles"
             />
-          </div>
+          </article>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

@@ -5,7 +5,7 @@ import { ArrowRightIcon } from "./Vectors";
 
 const Team = () => {
   return (
-    <div className="team section">
+    <section className="team section">
       <Container>
         <header className="team__header section__header">
           <h2 className="title title--primary team__title section__title">
@@ -248,7 +248,7 @@ const Team = () => {
           </div>
         </Splide>
       </Container>
-    </div>
+    </section>
   );
 };
 

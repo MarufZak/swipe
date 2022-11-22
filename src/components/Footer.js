@@ -1,7 +1,7 @@
 import Container from './Container';
 
 const Footer = () => {
-  return <div className="footer">
+  return <footer className="footer">
     <img className='footer__bg' src="./img/footer/footer.png" srcSet='./img/footer/footer.webp' alt="rings" />
     <Container>
         <div className='footer__body'>
@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
         </div>
     </Container>
-  </div>
+  </footer>
 }
 
 export default Footer;

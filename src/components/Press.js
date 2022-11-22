@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const Press = () => {
   return (
-    <div className="press section">
+    <section className="press section">
       <Container>
         <div className="press__body">
           <header className="press__header section__header">
@@ -110,7 +110,7 @@ const Press = () => {
           </Splide>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

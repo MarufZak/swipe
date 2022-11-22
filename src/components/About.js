@@ -9,7 +9,7 @@ import Container from "./Container";
 
 const About = () => {
   return (
-    <div className="about section">
+    <section className="about section">
       <Container>
         <div className="about__body">
           <header className="about__header section__header">
@@ -103,7 +103,7 @@ const About = () => {
           </Splide>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

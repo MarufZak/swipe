@@ -12,26 +12,28 @@ import {
   Press,
   Contact,
   Media,
+  Footer
 } from "./components";
-import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Header />
-      <Sponsors />
-      <Numbers />
-      <Features />
-      <Advantages />
-      <Techs />
-      <Plans />
-      <Team />
-      <Questions />
-      <About />
-      <Press />
-      <Contact />
-      <Media />
-      <Footer/>
+      <main className="main">
+        <Sponsors />
+        <Numbers />
+        <Features />
+        <Advantages />
+        <Techs />
+        <Plans />
+        <Team />
+        <Questions />
+        <About />
+        <Press />
+        <Contact />
+        <Media />
+      </main>
+      <Footer />
     </>
   );
 }

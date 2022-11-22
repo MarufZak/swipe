@@ -11,6 +11,7 @@ import Questions from './Questions';
 import Sponsors from './Sponsors';
 import Team from './Team';
 import Techs from './Techs';
+import Footer from './Footer';
 
 
 export {
@@ -26,5 +27,6 @@ export {
     Questions,
     Sponsors,
     Team,
-    Techs
+    Techs,
+    Footer
 };

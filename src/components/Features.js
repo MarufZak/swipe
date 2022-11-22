@@ -12,7 +12,7 @@ import Container from "./Container";
 
 const Features = () => {
   return (
-    <div className="features section">
+    <section className="features section">
       <Container>
         <div className="features__body">
           <header className="features__header section__header">
@@ -39,7 +39,7 @@ const Features = () => {
               src="./img/features/features-3.png"
               alt="figure"
             />
-            <div className="features__cart">
+            <article className="features__cart">
               <h5 className="title title--secondary features__cart-title">
                 Simple
               </h5>
@@ -71,8 +71,8 @@ const Features = () => {
                   <span className="features__cart-desc">User friendly</span>
                 </li>
               </ul>
-            </div>
-            <div className="features__cart">
+            </article>
+            <article className="features__cart">
               <h5 className="title title--secondary features__cart-title">
                 Customizable
               </h5>
@@ -110,8 +110,8 @@ const Features = () => {
                   <span className="features__cart-desc">Unique design</span>
                 </li>
               </ul>
-            </div>
-            <div className="features__cart">
+            </article>
+            <article className="features__cart">
               <h5 className="title title--secondary features__cart-title">
                 Stylish
               </h5>
@@ -143,11 +143,11 @@ const Features = () => {
                   </span>
                 </li>
               </ul>
-            </div>
+            </article>
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

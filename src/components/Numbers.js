@@ -1,6 +1,8 @@
+import Container from "./Container";
+
 const Numbers = () => {
   return (
-    <div className="numbers section">
+    <section className="numbers section">
       <picture>
         <source
           type="image/webp"
@@ -15,16 +17,16 @@ const Numbers = () => {
           alt="triangles"
         />
       </picture>
-      <div className="container">
+      <Container>
         <div className="numbers__body">
-          <div>
+          <div className="numbers__header">
             <span className="numbers__uptitle">since 2019</span>
             <h2 className="title title--secondary numbers__title">
               In numbers
             </h2>
           </div>
           <div className="numbers__content">
-            <div className="numbers__cart">
+            <article className="numbers__cart">
               <div>
                 <h5 className="title title--primary numbers__cart-title">
                   Happy clients
@@ -35,8 +37,8 @@ const Numbers = () => {
                 </p>
               </div>
               <span className="numbers__cart-num">1000+</span>
-            </div>
-            <div className="numbers__cart">
+            </article>
+            <article className="numbers__cart">
               <div>
                 <h5 className="title title--primary numbers__cart-title">
                   Products created
@@ -47,8 +49,8 @@ const Numbers = () => {
                 </p>
               </div>
               <span className="numbers__cart-num">20+</span>
-            </div>
-            <div className="numbers__cart">
+            </article>
+            <article className="numbers__cart">
               <div>
                 <h5 className="title title--primary numbers__cart-title">
                   Investments received
@@ -59,11 +61,11 @@ const Numbers = () => {
                 </p>
               </div>
               <span className="numbers__cart-num">$5M+</span>
-            </div>
+            </article>
           </div>
         </div>
-      </div>
-    </div>
+      </Container>
+    </section>
   );
 };
 

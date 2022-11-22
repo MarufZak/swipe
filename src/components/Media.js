@@ -4,7 +4,7 @@ import { ArrowRightIcon } from "./Vectors";
 
 const Media = () => {
   return (
-    <div className="media section">
+    <section className="media section">
       <Container>
         <div className="media__body">
           <header className="media__header section__header">
@@ -21,6 +21,7 @@ const Media = () => {
             options={{
               rewind: true,
               perPage: 5,
+              pagination: false,
               breakpoints: {
                 992: {
                   perPage: 3,
@@ -103,7 +104,7 @@ const Media = () => {
           </Splide>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 
