@@ -1,4 +1,18 @@
-import { Advantages,Features,Header,Numbers,Plans,Sponsors,Techs,Team,Questions,About,Press,Contact,Media } from "./components";
+import {
+  Advantages,
+  Features,
+  Header,
+  Numbers,
+  Plans,
+  Sponsors,
+  Techs,
+  Team,
+  Questions,
+  About,
+  Press,
+  Contact,
+  Media,
+} from "./components";
 
 function App() {
   return (

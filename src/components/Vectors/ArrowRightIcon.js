@@ -1,7 +1,7 @@
 
 
-const ArrowRightIcon = ({className}) => {
-  return <svg class={`icon ${className}`}>
+const ArrowRightIcon = () => {
+  return <svg className="icon">
     <use href="./img/sprite.svg#arrow-right"></use>
 </svg>
 }

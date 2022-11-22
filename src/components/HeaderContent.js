@@ -1,5 +1,5 @@
-import {TwitterIcon,InstagramIcon,FacebookIcon} from "./Vectors";
-import Container from './Container';
+import { TwitterIcon, InstagramIcon, FacebookIcon } from "./Vectors";
+import Container from "./Container";
 
 const HeaderContent = () => {
   return (
@@ -18,9 +18,15 @@ const HeaderContent = () => {
               watch full video
             </a>
             <div className="header__media">
-              <TwitterIcon />
-              <InstagramIcon />
-              <FacebookIcon />
+              <span className="header__media-icon"> 
+                <TwitterIcon />
+              </span>
+              <span className="header__media-icon"> 
+                <InstagramIcon />
+              </span>
+              <span className="header__media-icon"> 
+                <FacebookIcon />
+              </span>
             </div>
           </footer>
         </div>

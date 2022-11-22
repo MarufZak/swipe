@@ -1,6 +1,6 @@
 
-const FacebookIcon = ({className}) => {
-  return <svg className={`icon ${className}`}>
+const FacebookIcon = () => {
+  return <svg className="icon">
   <use href="./img/sprite.svg#facebook"></use>
 </svg>
 }

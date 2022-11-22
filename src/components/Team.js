@@ -1,27 +1,31 @@
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import { Grid } from "@splidejs/splide-extension-grid";
 import Container from "./Container";
-import {ArrowRightIcon} from "./Vectors";
+import { ArrowRightIcon } from "./Vectors";
 
 const Team = () => {
   return (
     <div className="team section">
       <Container>
         <header className="team__header section__header">
-          <h2 className="title title--primary team__title section__title">Meet the team Want to join?</h2>
+          <h2 className="title title--primary team__title section__title">
+            Meet the team Want to join?
+          </h2>
           <div className="team__header-buttons section__btn">
             <button className="btn btn--purple team__btn">Join us</button>
-            <button className="btn btn--grey team__btn">See all openings</button>
+            <button className="btn btn--grey team__btn">
+              See all openings
+            </button>
           </div>
         </header>
         <Splide
           hasTrack={false}
-          className="team__slider"
+          className="team__slider slider"
           tag="section"
           extensions={{ Grid }}
           options={{
             rewind: true,
-            grid: { rows: 2, cols: 4},
+            grid: { rows: 2, cols: 4 },
             breakpoints: {
               1324: {
                 grid: { rows: 2, cols: 3 },
@@ -121,9 +125,7 @@ const Team = () => {
                 />
               </picture>
               <p className="team__item-name">Andy Gupta</p>
-              <span className="team__item-job">
-                CMO & Marketing Operations
-              </span>
+              <span className="team__item-job">CMO & Marketing Operations</span>
             </SplideSlide>
             <SplideSlide className="team__item">
               <picture>
@@ -221,9 +223,7 @@ const Team = () => {
                 />
               </picture>
               <p className="team__item-name">Andy Gupta</p>
-              <span className="team__item-job">
-                CMO & Marketing Operations
-              </span>
+              <span className="team__item-job">CMO & Marketing Operations</span>
             </SplideSlide>
             <SplideSlide className="team__item">
               <picture>
@@ -239,10 +239,10 @@ const Team = () => {
             </SplideSlide>
           </SplideTrack>
           <div className="splide__arrows team__slider-arrows">
-            <button className="splide__arrow splide__arrow--prev team__slider--prev">
+            <button className="splide__arrow splide__arrow--prev team__slider--prev slider__btn slider__btn--prev">
               <ArrowRightIcon />
             </button>
-            <button className="splide__arrow splide__arrow--next team__slider--next">
+            <button className="splide__arrow splide__arrow--next team__slider--next slider__btn slider__btn--next">
               <ArrowRightIcon />
             </button>
           </div>

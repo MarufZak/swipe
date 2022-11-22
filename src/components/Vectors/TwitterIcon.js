@@ -1,6 +1,6 @@
 
-const TwitterIcon = ({className}) => {
-  return <svg className={`icon ${className}`}>
+const TwitterIcon = () => {
+  return <svg className="icon">
     <use href="./img/sprite.svg#twitter"></use>
 </svg>
 }

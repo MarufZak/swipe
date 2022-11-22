@@ -1,7 +1,7 @@
 
 
-const StarIcon = ({className}) => {
-  return <svg className={`icon ${className}`}>
+const StarIcon = () => {
+  return <svg className="icon">
     <use href="./img/sprite.svg#star"></use>
 </svg>
   

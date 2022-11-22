@@ -1,7 +1,7 @@
 
 
-const ResetIcon = ({className}) => {
-  return <svg className={`icon ${className}`}>
+const ResetIcon = () => {
+  return <svg className="icon">
     <use href="./img/sprite.svg#reset"></use>
 </svg>
 }

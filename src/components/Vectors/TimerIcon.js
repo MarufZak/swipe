@@ -1,6 +1,6 @@
 
-const TimerIcon = ({className}) => {
-  return <svg className={`icon ${className}`}>
+const TimerIcon = () => {
+  return <svg className="icon">
   <use href="./img/sprite.svg#timer"></use>
 </svg>
 }

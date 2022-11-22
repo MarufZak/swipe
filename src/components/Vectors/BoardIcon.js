@@ -1,7 +1,7 @@
 
 
-const BoardIcon = ({className}) => {
-  return <svg className={`icon ${className}`}>
+const BoardIcon = () => {
+  return <svg className="icon">
     <use href="./img/sprite.svg#board"></use>
 </svg>
 }

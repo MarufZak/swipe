@@ -7,8 +7,12 @@ const Press = () => {
       <Container>
         <div className="press__body">
           <header className="press__header section__header">
-            <h2 className="title title--primary press__title section__title">In the press</h2>
-            <button className="btn btn--purple press__button section__btn">View more</button>
+            <h2 className="title title--primary press__title section__title">
+              In the press
+            </h2>
+            <button className="btn btn--purple press__button section__btn">
+              View more
+            </button>
           </header>
           <Splide
             options={{
@@ -22,9 +26,10 @@ const Press = () => {
                   padding: 0,
                 },
               },
-              autoplay: true
+              autoplay: true,
+              rewind: true,
             }}
-            className="press__slider"
+            className="press__slider slider"
           >
             <SplideSlide className="press__slide">
               <img
