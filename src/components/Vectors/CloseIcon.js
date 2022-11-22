@@ -2,7 +2,7 @@
 
 const CloseIcon = () => {
   return <svg className="icon">
-    <use href="./img/sprite.svg#close"></use>
+    <use href="./img/basic/sprite.svg#close"></use>
 </svg>
 }
 

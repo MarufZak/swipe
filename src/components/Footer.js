@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer__body'>
             <div className='footer__info'>
                 <a className='footer__logo' href="/">
-                    <img src="./img/logo-light.png" alt="logo" />
+                    <img src="./img/footer/logo-light.png" alt="logo" />
                 </a>
                 <p className='footer__info-location'>Kyiv, Ukraine</p>
                 <p className='footer__info-email'>hello.craftengine@gmail.com</p>

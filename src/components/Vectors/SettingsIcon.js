@@ -2,7 +2,7 @@
 
 const SettingsIcon = () => {
   return <svg className="icon">
-  <use href="./img/sprite.svg#settings"></use>
+  <use href="./img/basic/sprite.svg#settings"></use>
 </svg>
 }
 

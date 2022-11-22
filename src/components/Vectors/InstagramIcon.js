@@ -2,7 +2,7 @@
 
 const InstagramIcon = () => {
   return <svg className="icon">
-    <use href="./img/sprite.svg#instagram"></use>
+    <use href="./img/basic/sprite.svg#instagram"></use>
 </svg>
 }
 

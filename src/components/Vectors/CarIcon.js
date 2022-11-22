@@ -2,7 +2,7 @@
 
 const CarIcon = () => {
   return <svg className="icon">
-    <use href="./img/sprite.svg#car"></use>
+    <use href="./img/basic/sprite.svg#car"></use>
 </svg>
 }
 

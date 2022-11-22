@@ -2,7 +2,7 @@
 
 const LightIcon = () => {
   return <svg className="icon">
-      <use href="./img/sprite.svg#light"></use>
+      <use href="./img/basic/sprite.svg#light"></use>
 </svg>
 }
 

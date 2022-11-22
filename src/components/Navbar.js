@@ -7,7 +7,7 @@ function Navbar() {
       <Container>
         <div className="nav__body">
           <a href="/" className="logo">
-            <img src="./img/logo.png" alt="swipe logo" />
+            <img src="./img/basic/logo.png" alt="swipe logo" />
           </a>
           <Burger />
           <div className="nav__content">

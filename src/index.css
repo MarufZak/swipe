@@ -417,6 +417,7 @@ h5 {
   flex-wrap: wrap;
   justify-content: space-around;
   position: relative;
+  z-index: 1;
 }
 
 /*=== NUMBERS  ===*/
@@ -1100,7 +1101,7 @@ h5 {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  column-gap: clamp(4rem,7vw,12rem);
+  column-gap: clamp(4rem, 7vw, 12rem);
 }
 
 .footer__lists {
@@ -1109,7 +1110,7 @@ h5 {
   border-top: 1px solid var(--color-sky);
   border-bottom: 1px solid var(--color-sky);
   display: flex;
-  gap: clamp(4rem,7vw,12rem);
+  gap: clamp(2rem, 7vw, 12rem);
 }
 
 .footer__list .footer__list-item:not(:last-child) {
@@ -1126,7 +1127,7 @@ h5 {
 }
 
 .footer__info-rights {
-  margin-top: clamp(4rem,5vw,12rem);
+  margin-top: clamp(4rem, 5vw, 12rem);
   font-size: 1.4rem;
 }
 
@@ -1135,6 +1136,10 @@ h5 {
   top: 0;
   right: 0;
   height: 100%;
+}
+
+.footer__info-location {
+  margin-top: clamp(1rem, 2vw, 5rem);
 }
 
 @media screen and (max-width: 992px) {

@@ -1,7 +1,7 @@
 
 const UserIcon = () => {
   return <svg className="icon">
-      <use href="./img/sprite.svg#user"></use>
+      <use href="./img/basic/sprite.svg#user"></use>
 </svg>
 }
 

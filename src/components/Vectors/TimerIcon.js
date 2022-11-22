@@ -1,7 +1,7 @@
 
 const TimerIcon = () => {
   return <svg className="icon">
-  <use href="./img/sprite.svg#timer"></use>
+  <use href="./img/basic/sprite.svg#timer"></use>
 </svg>
 }
 

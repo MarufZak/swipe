@@ -1,7 +1,7 @@
 
 const FacebookIcon = () => {
   return <svg className="icon">
-  <use href="./img/sprite.svg#facebook"></use>
+  <use href="./img/basic/sprite.svg#facebook"></use>
 </svg>
 }
 

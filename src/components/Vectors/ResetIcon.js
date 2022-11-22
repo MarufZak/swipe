@@ -2,7 +2,7 @@
 
 const ResetIcon = () => {
   return <svg className="icon">
-    <use href="./img/sprite.svg#reset"></use>
+    <use href="./img/basic/sprite.svg#reset"></use>
 </svg>
 }
 
